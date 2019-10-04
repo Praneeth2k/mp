@@ -1,7 +1,7 @@
 .model small
 .data
 A db 07,02,05,04,01
-n db ($-B)
+n db ($-A)
 .code
 mov ax,@data
 mov ds,ax
